@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Lê Châu Kiệt",
+    "gender": true,
+    "marks": 9,
+    "email": "kle1212@gmail.com"
+  },
+  {
+    "name": "Nguyễn Thị Mai",
+    "gender": false,
+    "marks": 8,
+    "email": "maingt123@gmail.com"
+  },
+  {
+    "name": "Trần Đăng Khoa",
+    "gender": true,
+    "marks": 7.5,
+    "email": "khoatd@gmail.com"
+  },
+  {
+    "name": "Phạm Văn An",
+    "gender": true,
+    "marks": 8.5,
+    "email": "anpv456@gmail.com"
+  },
+  {
+    "name": "Hoàng Thị Minh",
+    "gender": false,
+    "marks": 9.5,
+    "email": "minhht789@gmail.com"
+  },
+  {
+    "name": "Vũ Thị Hạnh",
+    "gender": false,
+    "marks": 6.5,
+    "email": "hanhvt@gmail.com"
+  },
+  {
+    "name": "Lê Văn Tuấn",
+    "gender": true,
+    "marks": 7,
+    "email": "tuanlv@gmail.com"
+  },
+  {
+    "name": "Đặng Minh Hoàng",
+    "gender": true,
+    "marks": 9.2,
+    "email": "hoangdm@gmail.com"
+  },
+  {
+    "name": "Ngô Thị Lan",
+    "gender": false,
+    "marks": 8.8,
+    "email": "lannt@gmail.com"
+  },
+  {
+    "name": "Trần Văn Bảo",
+    "gender": true,
+    "marks": 1,
+    "email": "baotv@gmail.com"
+  }
+]
