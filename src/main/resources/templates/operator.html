@@ -13,7 +13,7 @@
         <li th:text="not${x > y}"></li>
         <li th:text="${x gt y} and ${x == y}"></li>
         <li th:text="${x > y} ? 'OK' : 'Cancel' "></li>
-        <li th:text="@{|/a/b/${x} / ${y}|}"></li>
+        <li th:text="@{|/a/b/${x}/${y}|}"></li>
         <li th:text="'/a/b' + ${x} + '/' + ${y}"></li>
         <li th:text="@{/a/b/{p1}/{p2}(p1 = ${x}, p2 = ${y})}"></li>
     </ul>

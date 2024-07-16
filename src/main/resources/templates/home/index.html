@@ -7,8 +7,7 @@
 </head>
 <body>
 <img th:src="@{/image/img1.jpg}" style="width: 50%">
-<nav th:replace="~{/layout/menu.html}">
-</nav>
+<nav th:replace="~{/layout/menu.html}"></nav>
     <h1 th:text="${message}"></h1>
 <ul th:object="${sv}">
     <li th:text="*{name}"></li>

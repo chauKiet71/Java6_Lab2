@@ -18,7 +18,7 @@ import java.util.List;
 public class UtilityController {
     @RequestMapping("/demo/utilities")
     public String demoUtilities(Model model) throws IOException {
-        File file = new ClassPathResource("/static/student.json").getFile();
+        File file = new ClassPathResource("/static/students.json").getFile();
         ObjectMapper mapper = new ObjectMapper();
         TypeReference<List<Student>> typeref = new TypeReference<List<Student>>() {};
         List<Student> students = mapper.readValue(file, typeref);

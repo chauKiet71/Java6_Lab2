@@ -18,7 +18,7 @@ import java.util.Optional;
 public class Student2Controller {
     @RequestMapping("/student/list")
     public String list(Model model, @RequestParam("indexx")Optional<Integer> index) throws IOException {
-        File file = new ClassPathResource("/static/student.json").getFile();
+        File file = new ClassPathResource("/static/students.json").getFile();
         ObjectMapper mapper = new ObjectMapper();
         TypeReference<List<Student>> typeref = new TypeReference<List<Student>>() {};
         List<Student> students = mapper.readValue(file, typeref);
